@@ -1,0 +1,127 @@
+{
+  "candidates": [
+    {
+      "type": "bbox_drift",
+      "target": "img_0015",
+      "evidence": [
+        {
+          "class": "hot dog",
+          "bbox_iou": 0.162,
+          "mask_coverage": 0.299,
+          "segment_id": 15247058
+        }
+      ]
+    },
+    {
+      "type": "class_disagreement",
+      "target": "img_0050",
+      "evidence": [
+        {
+          "detection_class": "dining table",
+          "panoptic_class": "broccoli",
+          "possible_types": [
+            "class_swap",
+            "category_swap"
+          ],
+          "bbox_iou": 0.132,
+          "mask_pixels_in_box": 4226,
+          "segment_id": 6262721
+        }
+      ]
+    },
+    {
+      "type": "class_disagreement",
+      "target": "img_0076",
+      "evidence": [
+        {
+          "detection_class": "car",
+          "panoptic_class": "bus",
+          "possible_types": [
+            "class_swap",
+            "category_swap"
+          ],
+          "bbox_iou": 0.999,
+          "mask_pixels_in_box": 52471,
+          "segment_id": 9064790
+        }
+      ]
+    },
+    {
+      "type": "class_disagreement",
+      "target": "img_0130",
+      "evidence": [
+        {
+          "detection_class": "elephant",
+          "panoptic_class": "frisbee",
+          "possible_types": [
+            "class_swap",
+            "category_swap"
+          ],
+          "bbox_iou": 0.998,
+          "mask_pixels_in_box": 118415,
+          "segment_id": 9865943
+        }
+      ]
+    },
+    {
+      "type": "instance_merge",
+      "target": "img_0072",
+      "evidence": [
+        {
+          "class": "car",
+          "segment_id": 586825,
+          "detection_boxes": 2,
+          "mask_pixels_in_boxes": [
+            21429,
+            5894
+          ]
+        }
+      ]
+    },
+    {
+      "type": "instance_merge",
+      "target": "img_0091",
+      "evidence": [
+        {
+          "class": "chair",
+          "segment_id": 4162433,
+          "detection_boxes": 2,
+          "mask_pixels_in_boxes": [
+            2231,
+            1006
+          ]
+        }
+      ]
+    },
+    {
+      "type": "instance_merge",
+      "target": "img_0159",
+      "evidence": [
+        {
+          "class": "book",
+          "segment_id": 929085,
+          "detection_boxes": 2,
+          "mask_pixels_in_boxes": [
+            908,
+            791
+          ]
+        }
+      ]
+    },
+    {
+      "type": "instance_merge",
+      "target": "img_0200",
+      "evidence": [
+        {
+          "class": "cow",
+          "segment_id": 7556236,
+          "detection_boxes": 2,
+          "mask_pixels_in_boxes": [
+            4764,
+            1732
+          ]
+        }
+      ]
+    }
+  ]
+}

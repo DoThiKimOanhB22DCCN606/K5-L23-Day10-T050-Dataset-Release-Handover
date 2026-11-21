@@ -1,0 +1,9 @@
+image,type,verdict,note
+img_0015,bbox_drift,confirmed,"AI-assisted visual check: the rear hot dog has a panoptic mask extending beyond its detection box on the right and top edges."
+img_0050,class_disagreement,rejected,"AI-assisted visual check: the highlighted broccoli pieces have their own broccoli detections; the broad dining-table box overlaps them naturally."
+img_0076,class_swap,confirmed,"AI-assisted visual check: the large yellow school bus is labeled car by detection while panoptic identifies it as a bus."
+img_0130,category_swap,confirmed,"AI-assisted visual check: the highlighted large animal is an elephant; detection says elephant while panoptic assigns frisbee."
+img_0072,instance_merge,rejected,"AI-assisted visual check: the red mask follows the cropped foreground car; the small overlapping car box does not show a second car joined to its mask."
+img_0091,instance_merge,rejected,"AI-assisted visual check: the highlighted segment is one chair at the right edge; the overlapping chair boxes cover that same chair."
+img_0159,instance_merge,rejected,"AI-assisted visual check: the highlighted segment marks one book in a stack; nearby boxes cover separate books without a joined segment."
+img_0200,instance_merge,confirmed,"AI-assisted visual check: the highlighted cow mask spans two adjacent cow detections in the crowded line of cattle."
