@@ -1,0 +1,187 @@
+{
+  "candidates": [
+    {
+      "type": "bbox_drift",
+      "target": "000000007795",
+      "evidence": [
+        {
+          "class": "bed",
+          "bbox_iou": 0.327,
+          "mask_coverage": 0.139,
+          "segment_id": 7435899
+        }
+      ]
+    },
+    {
+      "type": "class_disagreement",
+      "target": "000000009483",
+      "evidence": [
+        {
+          "detection_class": "laptop",
+          "panoptic_class": "tv",
+          "possible_types": [
+            "class_swap",
+            "category_swap"
+          ],
+          "bbox_iou": 0.993,
+          "mask_pixels_in_box": 10757,
+          "segment_id": 9270375
+        }
+      ]
+    },
+    {
+      "type": "class_disagreement",
+      "target": "000000013659",
+      "evidence": [
+        {
+          "detection_class": "person",
+          "panoptic_class": "laptop",
+          "possible_types": [
+            "class_swap",
+            "category_swap"
+          ],
+          "bbox_iou": 0.429,
+          "mask_pixels_in_box": 9069,
+          "segment_id": 8351070
+        }
+      ]
+    },
+    {
+      "type": "class_disagreement",
+      "target": "000000019742",
+      "evidence": [
+        {
+          "detection_class": "vase",
+          "panoptic_class": "baseball bat",
+          "possible_types": [
+            "class_swap",
+            "category_swap"
+          ],
+          "bbox_iou": 0.995,
+          "mask_pixels_in_box": 34436,
+          "segment_id": 1257078
+        }
+      ]
+    },
+    {
+      "type": "class_disagreement",
+      "target": "000000023272",
+      "evidence": [
+        {
+          "detection_class": "bus",
+          "panoptic_class": "car",
+          "possible_types": [
+            "class_swap",
+            "category_swap"
+          ],
+          "bbox_iou": 0.999,
+          "mask_pixels_in_box": 127847,
+          "segment_id": 7369075
+        }
+      ]
+    },
+    {
+      "type": "class_disagreement",
+      "target": "000000023781",
+      "evidence": [
+        {
+          "detection_class": "carrot",
+          "panoptic_class": "motorcycle",
+          "possible_types": [
+            "class_swap",
+            "category_swap"
+          ],
+          "bbox_iou": 0.99,
+          "mask_pixels_in_box": 3257,
+          "segment_id": 5595317
+        }
+      ]
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000007108",
+      "evidence": [
+        {
+          "class": "elephant",
+          "segment_id": 3162214,
+          "detection_boxes": 2,
+          "mask_pixels_in_boxes": [
+            60938,
+            13400
+          ]
+        }
+      ]
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000013291",
+      "evidence": [
+        {
+          "class": "frisbee",
+          "segment_id": 13419440,
+          "detection_boxes": 2,
+          "mask_pixels_in_boxes": [
+            1507,
+            887
+          ]
+        }
+      ]
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000016010",
+      "evidence": [
+        {
+          "class": "zebra",
+          "segment_id": 4739410,
+          "detection_boxes": 2,
+          "mask_pixels_in_boxes": [
+            2962,
+            657
+          ]
+        }
+      ]
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000017182",
+      "evidence": [
+        {
+          "class": "book",
+          "segment_id": 3944728,
+          "detection_boxes": 2,
+          "mask_pixels_in_boxes": [
+            3804,
+            1549
+          ]
+        }
+      ]
+    },
+    {
+      "type": "instance_merge",
+      "target": "000000017627",
+      "evidence": [
+        {
+          "class": "car",
+          "segment_id": 8553344,
+          "detection_boxes": 2,
+          "mask_pixels_in_boxes": [
+            3788,
+            798
+          ]
+        }
+      ]
+    },
+    {
+      "type": "missing_box",
+      "target": "000000007511",
+      "evidence": [
+        {
+          "panoptic_class": "person",
+          "segment_area": 14530,
+          "segment_id": 3026996
+        }
+      ]
+    }
+  ]
+}

@@ -2,10 +2,10 @@
   <img src="docs/assets/hero.png" alt="Day 10 Lab: Bàn giao dataset và Truy vết" width="100%">
 </p>
 
-# Day 10 Lab — Bàn giao dataset & Truy vết
+# Day 10 Lab — Nhóm T050
 
 <p align="center">
-  <img alt="nhóm" src="https://img.shields.io/badge/lab-nhóm%205–6%20người-0b1f3a">
+  <img alt="nhóm" src="https://img.shields.io/badge/lab-nhóm%202%20thành%20viên-0b1f3a">
   <img alt="thời lượng" src="https://img.shields.io/badge/thời%20lượng-~4%20giờ-ff8a3d">
   <img alt="ảnh" src="https://img.shields.io/badge/dữ%20liệu-250%20ảnh%20COCO-12b3a8">
   <img alt="python" src="https://img.shields.io/badge/python-3.10%2B%20(chỉ%20thư%20viện%20chuẩn)-3776ab">
