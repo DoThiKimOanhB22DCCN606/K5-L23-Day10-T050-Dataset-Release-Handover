@@ -1,0 +1,14 @@
+image,type,verdict,note
+000000007795,bbox_drift,rejected,"Two distinct beds are visible; this box encloses the rear bed, not a drifted foreground-bed box."
+000000007795,missing_box,confirmed,"The foreground bed has a visible panoptic segment, while the only detection bed box encloses the separate rear bed."
+000000009483,category_swap,confirmed,"The red-highlighted object is an open laptop; detection says laptop, but panoptic labels that segment as tv."
+000000013659,category_swap,rejected,"The candidate overlaps a seated person and nearby laptops; separate detections identify both, so no single-object class swap is evident."
+000000019742,category_swap,confirmed,"The highlighted object is a glass vase holding fruit; detection says vase, while panoptic labels it baseball bat."
+000000023272,class_swap,confirmed,"The large highlighted object is a car; its large detection box says bus, while panoptic correctly identifies car."
+000000023781,category_swap,confirmed,"The highlighted panoptic segment follows a carrot in a produce display; nearby detection boxes also identify carrots, not motorcycle."
+000000007108,instance_merge,confirmed,"The highlighted panoptic region spans the overlapping right-side elephants, while detection has separate elephant boxes."
+000000013291,instance_merge,confirmed,"One highlighted panoptic frisbee segment covers multiple distinct discs, while detection boxes mark separate frisbees."
+000000016010,instance_merge,rejected,The highlighted mask follows one foreground zebra; the other herd animals stand outside that segment.
+000000017182,instance_merge,rejected,The highlighted panoptic segment covers one book; adjacent visible books have separate detection boxes.
+000000017627,instance_merge,rejected,The highlighted panoptic segment matches one car; neighboring vehicle boxes belong to separate adjacent cars.
+000000007511,missing_box,confirmed,The large foreground person has a panoptic segment but no detection box; detection boxes cover only distant people.
