@@ -1,0 +1,2 @@
+# Handover hashes are byte-sensitive; preserve package files exactly.
+/submission/**/handover/** -text
